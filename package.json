@@ -1,0 +1,25 @@
+{
+  "name": "ensieh-digitalocean-pg",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next",
+    "lint": "eslint '*/**/*.{js,ts,tsx}'",
+    "start": "next start"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "invariant": "^2.2.4",
+    "next": "10.0.7",
+    "pg": "^8.5.1",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "sequelize": "^6.5.0"
+  },
+  "devDependencies": {
+    "@types/invariant": "^2.2.34",
+    "@types/react": "^17.0.2",
+    "typescript": "^4.1.5"
+  }
+}
